@@ -4,18 +4,18 @@ module.exports = {
     'es6': true,
     'jest/globals': true
   },
-  "overrides": [
+  'overrides': [
     {
-        "env": {
-            "node": true
-        },
-        "files": [
-            ".eslintrc.{js,cjs}"
-        ],
-        "parserOptions": {
-            "sourceType": "script"
-        }
+      'env': {
+        'node': true
+      },
+      'files': [
+        '.eslintrc.{js,cjs}'
+      ],
+      'parserOptions': {
+        'sourceType': 'script'
       }
+    }
   ],
   'extends': [
     'eslint:recommended',
@@ -57,23 +57,21 @@ module.exports = {
       'error', { 'before': true, 'after': true }
     ],
     'react/prop-types': 0,
-    'rules': {
-      '@stylistic/js/indent': [
-          'error',
-          2
-      ],
-      '@stylistic/js/linebreak-style': [
-          'error',
-          'unix'
-      ],
-      '@stylistic/js/quotes': [
-          'error',
-          'single'
-      ],
-      '@stylistic/js/semi': [
-          'error',
-          'never'
-      ],
-    }
+    '@stylistic/js/indent': [
+      'error',
+      2
+    ],
+    '@stylistic/js/linebreak-style': [
+      'error',
+      'unix'
+    ],
+    '@stylistic/js/quotes': [
+      'error',
+      'single'
+    ],
+    '@stylistic/js/semi': [
+      'error',
+      'never'
+    ],
   }
 }
